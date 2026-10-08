@@ -1478,3 +1478,89 @@ footer {
     }
 
 }
+/* ================= PROJECT COLLECTION ================= */
+
+.project-card {
+    margin-bottom: 40px;
+}
+
+.project-icon-business,
+.project-icon-restaurant,
+.project-icon-services,
+.project-icon-store,
+.project-icon-dashboard,
+.project-icon-hotel {
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.project-icon-business i,
+.project-icon-restaurant i,
+.project-icon-services i,
+.project-icon-store i,
+.project-icon-dashboard i,
+.project-icon-hotel i {
+    font-size: 80px;
+    opacity: 0.9;
+}
+
+.project-icon-business {
+    background: linear-gradient(135deg, #102a43, #1d4e89);
+}
+
+.project-icon-restaurant {
+    background: linear-gradient(135deg, #21170f, #80622d);
+}
+
+.project-icon-services {
+    background: linear-gradient(135deg, #0b1f33, #245b88);
+}
+
+.project-icon-store {
+    background: linear-gradient(135deg, #10243e, #176b87);
+}
+
+.project-icon-dashboard {
+    background: linear-gradient(135deg, #101d35, #34558c);
+}
+
+.project-icon-hotel {
+    background: linear-gradient(135deg, #15120f, #7d6535);
+}
+
+.project-icon-business .project-badge,
+.project-icon-restaurant .project-badge,
+.project-icon-services .project-badge,
+.project-icon-store .project-badge,
+.project-icon-dashboard .project-badge,
+.project-icon-hotel .project-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+    .project-icon-business,
+    .project-icon-restaurant,
+    .project-icon-services,
+    .project-icon-store,
+    .project-icon-dashboard,
+    .project-icon-hotel {
+        min-height: 240px;
+    }
+
+    .project-icon-business i,
+    .project-icon-restaurant i,
+    .project-icon-services i,
+    .project-icon-store i,
+    .project-icon-dashboard i,
+    .project-icon-hotel i {
+        font-size: 60px;
+    }
+
+}
